@@ -2,3 +2,5 @@ target/*
 *.iml
 project/*
 .idea/*
+.idea*
+.idea_modules/*
