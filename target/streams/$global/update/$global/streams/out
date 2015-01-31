@@ -1,0 +1,1011 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/vinay.varma/workspace/songengine/}songengine...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#songengine_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ab1f58a[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.databinder.dispatch#dispatch-core_2.10;0.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder.dispatch#dispatch-core_2.10;0.11.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.databinder.dispatch#dispatch-core_2.10;0.11.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.databinder.dispatch#dispatch-core_2.10;0.11.2[0m
+[0m[[0mdebug[0m] [0m	found net.databinder.dispatch#dispatch-core_2.10;0.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.ning#async-http-client;1.8.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.ning#async-http-client;1.8.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.ning#async-http-client;1.8.10[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.ning#async-http-client;1.8.10[0m
+[0m[[0mdebug[0m] [0m	found com.ning#async-http-client;1.8.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.9.2.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.9.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.9.2.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.9.2.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.9.2.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.2.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.2.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.2.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-databind;2.2.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.2.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.2.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.2.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-annotations;2.2.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.2.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.2.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.2.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-core;2.2.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.thoughtworks.paranamer#paranamer;2.3[0m
+[0m[[0mdebug[0m] [0m	found com.thoughtworks.paranamer#paranamer;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;2.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.code.findbugs#jsr305;2.0.1[0m
+[0m[[0mdebug[0m] [0m	found com.google.code.findbugs#jsr305;2.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;13.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;13.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;13.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;13.0.1[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;13.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.2-M1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2-M1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2-M1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2-M1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.debasishg#redisclient_2.10;2.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.debasishg#redisclient_2.10;2.13 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.debasishg#redisclient_2.10;2.13[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.debasishg#redisclient_2.10;2.13[0m
+[0m[[0mdebug[0m] [0m	found net.debasishg#redisclient_2.10;2.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-pool#commons-pool;1.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-pool#commons-pool;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-pool#commons-pool;1.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-pool#commons-pool;1.6[0m
+[0m[[0mdebug[0m] [0m	found commons-pool#commons-pool;1.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.3.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.3.2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving uk.co.caprica#vlcj;2.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: uk.co.caprica#vlcj;2.4.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: uk.co.caprica#vlcj;2.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: uk.co.caprica#vlcj;2.4.1[0m
+[0m[[0mdebug[0m] [0m	found uk.co.caprica#vlcj;2.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving net.java.dev.jna#jna;3.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.java.dev.jna#jna;3.5.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.java.dev.jna#jna;3.5.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.java.dev.jna#jna;3.5.2[0m
+[0m[[0mdebug[0m] [0m	found net.java.dev.jna#jna;3.5.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving net.java.dev.jna#platform;3.5.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.java.dev.jna#platform;3.5.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.java.dev.jna#platform;3.5.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.java.dev.jna#platform;3.5.2[0m
+[0m[[0mdebug[0m] [0m	found net.java.dev.jna#platform;3.5.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.databinder.dispatch#dispatch-core_2.10;0.11.2->com.ning#async-http-client;1.8.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->io.netty#netty;3.9.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.ning#async-http-client;1.8.10->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.databinder.dispatch#dispatch-core_2.10;0.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-annotations;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.2.2->com.fasterxml.jackson.core#jackson-core;2.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2->com.google.guava#guava;13.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M1->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->commons-pool#commons-pool;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#redisclient_2.10;2.13->com.typesafe.akka#akka-actor_2.10;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.2->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->net.debasishg#redisclient_2.10;2.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies uk.co.caprica#vlcj;2.4.1->net.java.dev.jna#platform;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.java.dev.jna#platform;3.5.2->net.java.dev.jna#jna;3.5.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->uk.co.caprica#vlcj;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#songengine_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.0 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#songengine_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.databinder.dispatch#dispatch-core_2.10;0.11.2!dispatch-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.2.2!jackson-databind.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.10;2.2.2!jackson-module-scala_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.debasishg#redisclient_2.10;2.13!redisclient_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] uk.co.caprica#vlcj;2.4.1!vlcj.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.ning#async-http-client;1.8.10!async-http-client.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.9.2.Final!netty.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.2.2!jackson-annotations.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.2.2!jackson-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.3!paranamer.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.1!jsr305.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;13.0.1!guava.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.2!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jna#jna;3.5.2!jna.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jna#platform;3.5.2!platform.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.0!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 695ms :: artifacts dl 42ms[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 compile produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 runtime produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 test produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 provided produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 optional produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 compile-internal produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 runtime-internal produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 test-internal produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 plugin produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 sources produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 docs produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 pom produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#songengine_2.10;1.0 scala-tool produced in /Users/vinay.varma/workspace/songengine/target/resolution-cache/reports/default-songengine_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (695ms resolve - 42ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

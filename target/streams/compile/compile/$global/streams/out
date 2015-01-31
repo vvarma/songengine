@@ -1,0 +1,33 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/vinay.varma/workspace/songengine/src/main/scala/Supervisor.scala, /Users/vinay.varma/workspace/songengine/src/main/scala/SongEngine.scala, /Users/vinay.varma/workspace/songengine/src/main/scala/Player.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/vinay.varma/workspace/songengine/src/main/scala/Supervisor.scala, /Users/vinay.varma/workspace/songengine/src/main/scala/SongEngine.scala, /Users/vinay.varma/workspace/songengine/src/main/scala/Player.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/vinay.varma/workspace/songengine/src/main/scala/Supervisor.scala, /Users/vinay.varma/workspace/songengine/src/main/scala/SongEngine.scala, /Users/vinay.varma/workspace/songengine/src/main/scala/Player.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/vinay.varma/workspace/songengine/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.0[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.0[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler a46c7f, interfacing (CompilerInterface) with Scala compiler version 2.10.0[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre/classes:/Users/vinay.varma/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/vinay.varma/workspace/songengine/target/scala-2.10/classes:/Users/vinay.varma/workspace/songengine/lib/JNativeHook.jar:/Users/vinay.varma/workspace/songengine/lib/KeystrokeOSD-1.0-SNAPSHOT.jar:/Users/vinay.varma/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.11.2.jar:/Users/vinay.varma/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.8.10.jar:/Users/vinay.varma/.ivy2/cache/io.netty/netty/bundles/netty-3.9.2.Final.jar:/Users/vinay.varma/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/Users/vinay.varma/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.2.2.jar:/Users/vinay.varma/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.2.2.jar:/Users/vinay.varma/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.2.2.jar:/Users/vinay.varma/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.10/jars/jackson-module-scala_2.10-2.2.2.jar:/Users/vinay.varma/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar:/Users/vinay.varma/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.1.jar:/Users/vinay.varma/.ivy2/cache/com.google.guava/guava/jars/guava-13.0.1.jar:/Users/vinay.varma/.ivy2/cache/net.debasishg/redisclient_2.10/jars/redisclient_2.10-2.13.jar:/Users/vinay.varma/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.6.jar:/Users/vinay.varma/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.2.jar:/Users/vinay.varma/.ivy2/cache/com.typesafe/config/bundles/config-1.2.0.jar:/Users/vinay.varma/.ivy2/cache/uk.co.caprica/vlcj/jars/vlcj-2.4.1.jar:/Users/vinay.varma/.ivy2/cache/net.java.dev.jna/jna/jars/jna-3.5.2.jar:/Users/vinay.varma/.ivy2/cache/net.java.dev.jna/platform/jars/platform-3.5.2.jar[0m
+[0m[[33mwarn[0m] [0mthere were 5 feature warnings; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 10.853827 s[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
