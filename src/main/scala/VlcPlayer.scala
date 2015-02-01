@@ -4,10 +4,11 @@ import com.sun.jna.{Native, NativeLibrary}
 import uk.co.caprica.vlcj.binding.LibVlc
 import uk.co.caprica.vlcj.binding.internal.libvlc_media_t
 import uk.co.caprica.vlcj.component.AudioMediaPlayerComponent
-import uk.co.caprica.vlcj.medialist.MediaListItem
 import uk.co.caprica.vlcj.player.MediaPlayer
 import uk.co.caprica.vlcj.player.list.{MediaListPlayer, MediaListPlayerEventAdapter}
 import uk.co.caprica.vlcj.runtime.RuntimeUtil
+
+import scala.collection.mutable
 
 /**
  * Created by vinay.varma on 1/31/15.
@@ -21,6 +22,7 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
   }
   val audioPlayer = new AudioMediaPlayerComponent {
     override def finished(mediaPlayer: MediaPlayer) {
+      println("Finished")
       System.exit(0)
     }
 
@@ -31,7 +33,7 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
   }
   val mediaPlayer: MediaPlayer = audioPlayer.getMediaPlayer
   val mediaListPlayer = audioPlayer.getMediaPlayerFactory.newMediaListPlayer
-
+  var transientPlayList=new mutable.MutableList[String]
 
   mediaListPlayer.setMediaPlayer(mediaPlayer)
 
@@ -41,6 +43,7 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
 
   mediaListPlayer.addMediaListPlayerEventListener(new MediaListPlayerEventAdapter {
     override def nextItem(mediaListPlayer: MediaListPlayer, item: libvlc_media_t, itemMrl: String) {
+      transientPlayList=transientPlayList.tail
       eventHandler.onNext(new SongDetails(audioPlayer.getMediaPlayerFactory.getMediaMeta(itemMrl, true), itemMrl))
     }
   })
@@ -63,7 +66,10 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
 
 
   def addToPlayList(mrls: Array[String]) {
-    for (mrl <- mrls) mediaListPlayer.getMediaList.addMedia(mrl)
+    for (mrl <- mrls) {
+      mediaListPlayer.getMediaList.addMedia(mrl)
+      transientPlayList+=mrl
+    }
   }
 
   def play() {
@@ -89,9 +95,6 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
   }
 
   def playList: Iterable[String] = {
-    import scala.collection.JavaConversions._
-    for (mediaListItem: MediaListItem <- mediaListPlayer.getMediaList.items) yield {
-      mediaListItem.mrl
-    }
+    transientPlayList
   }
 }
