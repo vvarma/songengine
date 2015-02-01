@@ -21,3 +21,9 @@ libraryDependencies ++= Seq(
 libraryDependencies += "uk.co.caprica" % "vlcj" % "2.4.1"
 
 unmanagedBase := baseDirectory.value / "lib"
+
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.1.0" exclude("org.apache.hadoop","hadoop-client")
+
+libraryDependencies += "org.apache.hadoop" % "hadoop-client" % "2.4.0"
+
+libraryDependencies += "org.apache.spark" % "spark-streaming_2.10" % "1.1.0" exclude("org.apache.hadoop","hadoop-client")
