@@ -1,3 +1,11 @@
+import sbt.Keys._
+import sbt._
+import sbtassembly.Plugin._
+
+
+// activating assembly plugin
+assemblySettings
+
 name := "songengine"
 
 version := "1.0"
@@ -14,16 +22,16 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 
 libraryDependencies += "com.typesafe.akka" % "akka-actor_2.10" % "2.2-M1"
 
-libraryDependencies ++= Seq(
-  "net.debasishg" %% "redisclient" % "2.13"
-)
-
 libraryDependencies += "uk.co.caprica" % "vlcj" % "2.4.1"
 
 unmanagedBase := baseDirectory.value / "lib"
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % "1.1.0" exclude("org.apache.hadoop","hadoop-client")
+libraryDependencies += "com.typesafe.akka" % "akka-remote_2.10" % "2.3.9"
 
-libraryDependencies += "org.apache.hadoop" % "hadoop-client" % "2.4.0"
+libraryDependencies += "com.typesafe.akka" % "akka-slf4j_2.10" % "2.3.9"
 
-libraryDependencies += "org.apache.spark" % "spark-streaming_2.10" % "1.1.0" exclude("org.apache.hadoop","hadoop-client")
+libraryDependencies += "net.java.dev.jna" % "jna" % "4.1.0"
+
+libraryDependencies += "log4j" % "log4j" % "1.2.17"
+
+
