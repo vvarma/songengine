@@ -25,9 +25,6 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
   val version = LibVlcVersion.getVersion
   logger.info("Found version " + version.toString)
   val audioPlayer = new AudioMediaPlayerComponent {
-    override def finished(mediaPlayer: MediaPlayer) {
-      logger.error("Vlc Player is finished")
-    }
     override def error(mediaPlayer: MediaPlayer) {
       logger.error("Vlc Player has errored out")
     }

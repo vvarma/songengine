@@ -31,4 +31,8 @@ package object songengine {
       }
     }
 
+  def serialize(data: AnyRef): String = {
+    mapper.writeValueAsString(data)
+  }
+
 }

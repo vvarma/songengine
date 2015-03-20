@@ -4,8 +4,9 @@ import akka.actor.{Actor, ActorSystem, Props}
 import akka.event.Logging
 import akka.event.slf4j.Logger
 import akka.util.Timeout
-import com.nvr.songengine.feedback.{SocketService, Feedback}
+import com.nvr.songengine.feedback.Feedback
 import com.nvr.songengine.recco.ReccoEngine
+import com.nvr.songengine.socket.SocketService
 
 import scala.concurrent.duration.DurationInt
 
@@ -15,12 +16,12 @@ import scala.concurrent.duration.DurationInt
 
 class Supervisor extends Actor {
   val logger = Logging.getLogger(context.system, this)
-  val socketService = context.actorOf(Props[SocketService], "socketService")
   val playerRef = context.actorOf(Props[Player], "playerRef")
   val engineRef = context.actorOf(Props[SongEngine], "engineRef")
   val feedBackRef = context.actorOf(Props[Feedback], "feedBackRef")
   val eventsRef = context.actorOf(Props[Events], "eventsRef")
   val reccoRef = context.actorOf(Props[ReccoEngine], "reccoRef")
+  val socketService = context.actorOf(SocketService.props("localhost", 11111, feedBackRef), "socketService")
 
 
   new Thread() {
