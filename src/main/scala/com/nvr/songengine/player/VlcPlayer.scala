@@ -28,10 +28,8 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
     override def finished(mediaPlayer: MediaPlayer) {
       logger.error("Vlc Player is finished")
     }
-
     override def error(mediaPlayer: MediaPlayer) {
       logger.error("Vlc Player has errored out")
-      System.exit(1)
     }
   }
   val mediaPlayer: MediaPlayer = audioPlayer.getMediaPlayer
@@ -50,6 +48,7 @@ class VlcPlayer(val eventHandler: PlayerEventHandler) {
       eventHandler.onNext(transientPlayList.head)
       transientPlayList = transientPlayList.tail
     }
+
   })
 
   def registerSongsFromHomePath(path: String) = {

@@ -1,6 +1,11 @@
+package com.nvr.songengine.feedback
+
 import akka.actor.{Actor, ActorRef}
-import UserAction.UserAction
+import akka.event.Logging
 import akka.util.Timeout
+import com.nvr.songengine.feedback.UserAction.UserAction
+import com.nvr.songengine.player.PathConstants._
+import com.nvr.songengine.player.{EventMessage, Feed, FeedbackSong}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.DurationInt
@@ -11,12 +16,13 @@ import scala.util.{Failure, Success}
  */
 class Feedback extends Actor {
   implicit val timeout = Timeout(5 seconds)
+  val logger = Logging.getLogger(context.system,this)
 
   override def receive: Receive = {
     case Feed(line) =>
       val action = Action.createAction(line)
-      resolveActorRef("/user/supervisor/engineRef")(actorRef => actorRef ! action)
-      resolveActorRef("/user/supervisor/eventsRef")(actorRef => actorRef ! EventMessage(new FeedbackSong(action)))
+      resolveActorRef(ENGINE_REF)(actorRef => actorRef ! action)
+      resolveActorRef(EVENTS_REF)(actorRef => actorRef ! EventMessage(new FeedbackSong(action)))
   }
 
   def resolveActorRef(actorUrl: String)(onSuccessFn: ActorRef => Unit) {
@@ -24,7 +30,7 @@ class Feedback extends Actor {
       case Success(actorRef) =>
         onSuccessFn(actorRef)
       case Failure(ex) =>
-        println("error resolving player ref.")
+        logger.error("error resolving player ref.")
     }
   }
 }

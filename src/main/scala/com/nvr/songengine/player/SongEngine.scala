@@ -4,6 +4,7 @@ import akka.actor.{Actor, ActorRef}
 import akka.event.Logging
 import akka.pattern.ask
 import akka.util.Timeout
+import com.nvr.songengine.feedback.{Action, UserAction}
 import com.nvr.songengine.player.PathConstants.{PLAYER_REF, RECCO_REF}
 import com.nvr.songengine.recco.{GetReccomendation, Reccommendation}
 
