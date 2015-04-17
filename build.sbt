@@ -30,7 +30,7 @@ libraryDependencies += "com.typesafe.akka" % "akka-remote_2.10" % "2.3.9"
 
 libraryDependencies += "com.typesafe.akka" % "akka-slf4j_2.10" % "2.3.9"
 
-libraryDependencies += "io.spray" % "spray-can" % "1.2-20130628"
+libraryDependencies += "io.spray" % "spray-can" % "1.3.1"
 
 libraryDependencies += "net.java.dev.jna" % "jna" % "4.1.0"
 

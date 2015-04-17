@@ -21,7 +21,7 @@ class Supervisor extends Actor {
   val feedBackRef = context.actorOf(Props[Feedback], "feedBackRef")
   val eventsRef = context.actorOf(Props[Events], "eventsRef")
   val reccoRef = context.actorOf(Props[ReccoEngine], "reccoRef")
-  val socketService = context.actorOf(SocketService.props("localhost", 11111, feedBackRef), "socketService")
+  val socketService = context.actorOf(SocketService.props("192.168.1.9", 11111, feedBackRef), "socketService")
 
 
   new Thread() {
